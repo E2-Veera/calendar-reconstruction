@@ -1,0 +1,16 @@
+.build/
+build/
+tools/node_modules/
+evidence/live/
+.swiftpm/
+dist/
+deck-update/
+# Apple-owned resources extracted from Calendar.app: regenerate locally with scripts/collect_evidence.sh
+evidence/rea/*.loctable.json
+evidence/rea/iCal.sdef
+evidence/rea/decode-interface-builder.json
+evidence/rea/assetutil-Assets.json
+# Machine-specific output (local paths, agent config)
+evidence/rea/rea-doctor.json
+docs/test-results/*.log
+!docs/test-results/unit-tests.log

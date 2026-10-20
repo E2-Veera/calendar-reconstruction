@@ -1,0 +1,123 @@
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[1/5] Write swift-version--58304C5D6DBC2206.txt
+[3/8] Compiling CalendarReconstruction MonthView.swift
+[4/8] Emitting module CalendarReconstruction
+[5/8] Compiling CalendarReconstruction TimeGridView.swift
+[6/8] Compiling CalendarReconstruction ContentView.swift
+[6/9] Write Objects.LinkFileList
+[7/9] Linking CalendarReconstruction
+[8/9] Applying CalendarReconstruction
+Build complete! (3.94s)
+Test Suite 'All tests' started at 2026-10-20 12:22:56.177.
+Test Suite 'CalendarReconstructionPackageTests.xctest' started at 2026-10-20 12:22:56.177.
+Test Suite 'DateBoundaryTests' started at 2026-10-20 12:22:56.177.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testDaylightSavingDayHas23Hours]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testDaylightSavingDayHas23Hours]' passed (0.003 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testDayStepsCrossMonthAndYearBoundaries]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testDayStepsCrossMonthAndYearBoundaries]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testEventOnLastDayOfMonthAppearsInBothMonthGrids]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testEventOnLastDayOfMonthAppearsInBothMonthGrids]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testFebruaryLengths]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testFebruaryLengths]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testLeapDayEvent]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testLeapDayEvent]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testLeapYearRule]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testLeapYearRule]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthGridCoversWholeMonthInFullWeeks]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthGridCoversWholeMonthInFullWeeks]' passed (0.010 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthGridWithMondayFirst]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthGridWithMondayFirst]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthStepClampsDay]' started.
+Test Case '-[CalendarCoreTests.DateBoundaryTests testMonthStepClampsDay]' passed (0.001 seconds).
+Test Suite 'DateBoundaryTests' passed at 2026-10-20 12:22:56.195.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.017 (0.018) seconds
+Test Suite 'EventEditingTests' started at 2026-10-20 12:22:56.195.
+Test Case '-[CalendarCoreTests.EventEditingTests testAllDayEventsSortFirst]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testAllDayEventsSortFirst]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testAllDayEventUsesExclusiveEndButInclusiveForm]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testAllDayEventUsesExclusiveEndButInclusiveForm]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testCancelDiscardsDraft]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testCancelDiscardsDraft]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testCreateEditDeleteThroughController]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testCreateEditDeleteThroughController]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testDeletingCalendarDeletesItsEvents]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testDeletingCalendarDeletesItsEvents]' passed (0.003 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testDoubleClickedSlotCreatesEventAtThatTime]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testDoubleClickedSlotCreatesEventAtThatTime]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testEndBeforeStartIsRejected]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testEndBeforeStartIsRejected]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testHiddenCalendarEventsAreNotShown]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testHiddenCalendarEventsAreNotShown]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testMultiDayAllDayEventCoversEveryDay]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testMultiDayAllDayEventCoversEveryDay]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testNewEventOnTodayStartsAtNextHour]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testNewEventOnTodayStartsAtNextHour]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.EventEditingTests testTogglingAllDay]' started.
+Test Case '-[CalendarCoreTests.EventEditingTests testTogglingAllDay]' passed (0.001 seconds).
+Test Suite 'EventEditingTests' passed at 2026-10-20 12:22:56.203.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.008 (0.009) seconds
+Test Suite 'LaunchStateTests' started at 2026-10-20 12:22:56.203.
+Test Case '-[CalendarCoreTests.LaunchStateTests testSampleDataPopulatesEveryView]' started.
+Test Case '-[CalendarCoreTests.LaunchStateTests testSampleDataPopulatesEveryView]' passed (0.001 seconds).
+Test Suite 'LaunchStateTests' passed at 2026-10-20 12:22:56.204.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'LayoutTests' started at 2026-10-20 12:22:56.204.
+Test Case '-[CalendarCoreTests.LayoutTests testMonthCellOverflowShowsMore]' started.
+Test Case '-[CalendarCoreTests.LayoutTests testMonthCellOverflowShowsMore]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.LayoutTests testOverlappingEventsShareWidth]' started.
+Test Case '-[CalendarCoreTests.LayoutTests testOverlappingEventsShareWidth]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.LayoutTests testOvernightEventIsClippedToEachDay]' started.
+Test Case '-[CalendarCoreTests.LayoutTests testOvernightEventIsClippedToEachDay]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.LayoutTests testSpanningLanesAndContinuation]' started.
+Test Case '-[CalendarCoreTests.LayoutTests testSpanningLanesAndContinuation]' passed (0.001 seconds).
+Test Suite 'LayoutTests' passed at 2026-10-20 12:22:56.207.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'NavigationTests' started at 2026-10-20 12:22:56.207.
+Test Case '-[CalendarCoreTests.NavigationTests testGoToDateAndShowDay]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testGoToDateAndShowDay]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testNextPreviousInEachMode]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testNextPreviousInEachMode]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testStartsOnTodayInMonthView]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testStartsOnTodayInMonthView]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testSwitchingViewsKeepsSelectedDay]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testSwitchingViewsKeepsSelectedDay]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testTodayReturnsFromAnywhere]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testTodayReturnsFromAnywhere]' passed (0.000 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testWeekRespectsFirstWeekday]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testWeekRespectsFirstWeekday]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.NavigationTests testWeekTitleSpanningMonthsAndYears]' started.
+Test Case '-[CalendarCoreTests.NavigationTests testWeekTitleSpanningMonthsAndYears]' passed (0.001 seconds).
+Test Suite 'NavigationTests' passed at 2026-10-20 12:22:56.213.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'PersistenceTests' started at 2026-10-20 12:22:56.213.
+Test Case '-[CalendarCoreTests.PersistenceTests testAllDayEventSurvivesRestart]' started.
+Test Case '-[CalendarCoreTests.PersistenceTests testAllDayEventSurvivesRestart]' passed (0.005 seconds).
+Test Case '-[CalendarCoreTests.PersistenceTests testCorruptFileIsMovedAsideNotLost]' started.
+Test Case '-[CalendarCoreTests.PersistenceTests testCorruptFileIsMovedAsideNotLost]' passed (0.002 seconds).
+Test Case '-[CalendarCoreTests.PersistenceTests testEventsSurviveRestart]' started.
+Test Case '-[CalendarCoreTests.PersistenceTests testEventsSurviveRestart]' passed (0.003 seconds).
+Test Suite 'PersistenceTests' passed at 2026-10-20 12:22:56.224.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.011 (0.011) seconds
+Test Suite 'SearchTests' started at 2026-10-20 12:22:56.224.
+Test Case '-[CalendarCoreTests.SearchTests testAllTermsMustMatch]' started.
+Test Case '-[CalendarCoreTests.SearchTests testAllTermsMustMatch]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.SearchTests testCaseAndDiacriticInsensitive]' started.
+Test Case '-[CalendarCoreTests.SearchTests testCaseAndDiacriticInsensitive]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.SearchTests testEmptyQueryAndNoMatch]' started.
+Test Case '-[CalendarCoreTests.SearchTests testEmptyQueryAndNoMatch]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.SearchTests testMatchesTitleLocationNotesChronologically]' started.
+Test Case '-[CalendarCoreTests.SearchTests testMatchesTitleLocationNotesChronologically]' passed (0.001 seconds).
+Test Case '-[CalendarCoreTests.SearchTests testRevealNavigatesAndSelects]' started.
+Test Case '-[CalendarCoreTests.SearchTests testRevealNavigatesAndSelects]' passed (0.001 seconds).
+Test Suite 'SearchTests' passed at 2026-10-20 12:22:56.228.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'CalendarReconstructionPackageTests.xctest' passed at 2026-10-20 12:22:56.228.
+	 Executed 40 tests, with 0 failures (0 unexpected) in 0.048 (0.051) seconds
+Test Suite 'All tests' passed at 2026-10-20 12:22:56.228.
+	 Executed 40 tests, with 0 failures (0 unexpected) in 0.048 (0.051) seconds
+◇ Test run started.
+↳ Testing Library Version: 1085
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

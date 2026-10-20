@@ -1,0 +1,3 @@
+0185c8e80501ed0350023d1dd365b5d825a184bb62374e7a068d17d926a7f853  /System/Applications/Calendar.app/Contents/MacOS/Calendar
+5c9834c4d9ea1a5f23b482449f6a90f75c550fef4644259d79a8de09822371f6  /System/Applications/Calendar.app/Contents/Info.plist
+5a75968c65e68b06dd8ac27c03edd64958c5bb5805b431e9418af8f5ba6cebdd  /System/Applications/Calendar.app/Contents/Resources/Assets.car
